@@ -30,6 +30,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/gentelella/vendors/font-awesome/css/font-awesome.min.css",
+              "node_modules/gentelella/vendors/nprogress/nprogress.css",
+              "src/assets/css/custom.css",
               "src/styles.scss"
             ],
             "scripts": []
