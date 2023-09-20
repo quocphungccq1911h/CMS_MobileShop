@@ -12,8 +12,12 @@ export const mainRoute: Routes = [
     component: MainComponent,
     children: [
       {
-        path: 'home',
+        path: '',
         component: HomeComponent,
+        children: 
+        [
+          { path: 'home', component: HomeComponent }
+        ],
       },
       {
         path: 'product',
